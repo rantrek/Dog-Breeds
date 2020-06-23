@@ -3,7 +3,7 @@ Deep learning, neural networks, keras, computer vision
 
 ## About the Dataset
 
-The dataset can be downloaded from https://www.kaggle.com/c/digit-recognizer/data
+The dataset can be downloaded from https://www.kaggle.com/c/dog-breed-identification/data
 
 ## Objective
 
