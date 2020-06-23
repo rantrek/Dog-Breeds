@@ -23,6 +23,7 @@ The program is written in Python.
 ## Algorthims 
 
    - Convolution Neural Network (CNN)  
+   - Will be working on applying other models to this program
 
 ## Libraries
   
