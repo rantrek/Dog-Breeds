@@ -1,5 +1,5 @@
 # Dog-Breeds
-Deep learning, neural networks, keras, computer vision
+
 
 ## About the Dataset
 
