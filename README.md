@@ -20,7 +20,7 @@ The program is written in Python using Jupyter Notebook and run in Google colab.
    - Machine Learning
    - Deep Learning   
 
-## Algorthims 
+## Algorithms 
 
    - Convolution Neural Network (CNN)  
   
