@@ -11,7 +11,7 @@ The purpose of this project is to build a classification model to identify the b
 
 ## Program
 
-The program is written in Python using Jupyter Notebook and run in Google colab.
+The program is written in Python using Jupyter Notebook and run in Google colab (CNN model from scratch). Two new python files added - data processing (generates npy files to load for training) and training (pretrained CNN model). 
 
 ## Techniques
 
