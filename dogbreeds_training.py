@@ -10,8 +10,9 @@ from keras.layers import Dropout, BatchNormalization
 from keras.preprocessing import image
 from keras.preprocessing.image import ImageDataGenerator
 #from keras.applications.inception_v3 import InceptionV3
-from keras.applications.mobilenet_v2 import MobileNetV2
-from tensorflow.keras.optimizers import RMSprop, Adam
+#from keras.applications.mobilenet_v2 import MobileNetV2
+from keras.applications.inception_resnet_v2 import InceptionResNetV2
+from keras.optimizers import RMSprop, Adam
 
 """Training with CNN model"""
 
@@ -92,10 +93,10 @@ validation_set  =  valid_datagen.flow(X_test,Y_test,batch_size=20)
 
 #Train the model
 input_shape = (224,224,3)
-model = getModel(MobileNetV2, input_shape)
+model = getModel(InceptionResNetV2, input_shape)
 #Fit the model
-history = model.fit(training_set,epochs = 30, validation_data = validation_set, verbose =1)
+history = model.fit(training_set,epochs = 20, validation_data = validation_set, verbose =1)
 model.evaluate(training_set,verbose=1)
 model.evaluate(validation_set,verbose=1)
-model.save('mobilenetv2_model.h5')
+#model.save('inceptionresnet_model.h5')
 

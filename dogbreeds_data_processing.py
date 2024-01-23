@@ -3,8 +3,8 @@
 #Data management, analysis and visualization
 import numpy as np
 import pandas as pd
-from keras.preprocessing import image
-from keras.utils import np_utils
+#from keras.preprocessing import image
+import keras.utils as image
 from sklearn.preprocessing import LabelEncoder
 
 """Data processing"""
@@ -58,7 +58,7 @@ test_img.shape
 labelencoder = LabelEncoder()
 Y = labelencoder.fit_transform(labels['breed'].values)
 #Convert 1-dimensional class arrays to 30-dimensional class matrices for labels[breed]
-Y= np_utils.to_categorical(Y, 120)
+Y= image.np_utils.to_categorical(Y, 120)
 Y.shape
 
 #Save train and test data as npy files
