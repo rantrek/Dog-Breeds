@@ -7,12 +7,11 @@ from keras.layers import MaxPooling2D, GlobalAveragePooling2D
 from keras.layers import Flatten
 from keras.layers import Dense
 from keras.layers import Dropout, BatchNormalization
-from keras.preprocessing import image
 from keras.preprocessing.image import ImageDataGenerator
 #from keras.applications.inception_v3 import InceptionV3
 #from keras.applications.mobilenet_v2 import MobileNetV2
 from keras.applications.inception_resnet_v2 import InceptionResNetV2
-from keras.optimizers import RMSprop, Adam
+#from keras.optimizers import RMSprop, Adam
 
 """Training with CNN model"""
 
