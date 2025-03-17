@@ -30,6 +30,7 @@ The program is written in Python using Jupyter Notebook and run in Google colab 
    - Keras
    - Tensor Flow
    - Pandas
+   - NumPy
    - Matplotlib
    - Scikit-learn
    
